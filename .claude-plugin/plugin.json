@@ -1,0 +1,31 @@
+{
+  "name": "kagelot",
+  "displayName": "Kagelot",
+  "version": "1.0.0",
+  "description": "Direct AI films from Claude Code: load a Kagelot project, write screenplays and clip prompts, and watch the Kagelot chat and canvas update live.",
+  "author": { "name": "Kagelot", "email": "support@kagelot.com", "url": "https://kagelot.com" },
+  "homepage": "https://kagelot.com/mcp",
+  "repository": "https://github.com/Fahd26indo/kagelot-claude-plugin",
+  "license": "MIT",
+  "keywords": ["film", "video", "seedance", "screenplay", "storyboard", "ai-filmmaking", "mcp"],
+  "documentationUrl": "https://kagelot.com/mcp",
+  "supportUrl": "mailto:support@kagelot.com",
+  "privacyPolicyUrl": "https://kagelot.com/privacy",
+  "termsOfServiceUrl": "https://kagelot.com/terms",
+  "userConfig": {
+    "kagelot_key": {
+      "type": "string",
+      "title": "Kagelot key",
+      "description": "Your key from Kagelot > Connect tab > Activate MCP access (starts with kgl_). Any paid plan.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "kagelot": {
+      "type": "http",
+      "url": "https://kagelot.com/api/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.kagelot_key}" }
+    }
+  }
+}

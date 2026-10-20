@@ -1,0 +1,14 @@
+{
+  "name": "kagelot",
+  "description": "Kagelot, the AI filmmaking studio, inside Claude Code.",
+  "owner": { "name": "Kagelot", "email": "support@kagelot.com", "url": "https://kagelot.com" },
+  "plugins": [
+    {
+      "name": "kagelot",
+      "source": "./",
+      "description": "Direct AI films from Claude Code. Load a Kagelot project and direct the next clip; the Kagelot chat and canvas update live.",
+      "category": "creative",
+      "tags": ["film", "video", "seedance", "screenplay"]
+    }
+  ]
+}
