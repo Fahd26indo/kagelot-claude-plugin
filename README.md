@@ -31,3 +31,7 @@ Images and videos are never made from your terminal. They appear as cards in you
 Reading and writing your project is free. `direct_clip` and `write_screenplay` cost 1 Kagelot credit each. The rest of the thinking runs on your own Claude subscription.
 
 Full guide and tutorial video: https://kagelot.com/mcp · Support: support@kagelot.com
+
+## License
+
+MIT for this plugin (the connection and skills). The Kagelot service and its filmmaking agents are covered by the [Kagelot Terms](https://kagelot.com/terms).
